@@ -5,12 +5,12 @@
   "browser_action": {
     "default_popup": "index.html"
   },
-  "content_security_policy": "script-src 'self' 'sha256-GgRxrVOKNdB4LrRsVPDSbzvfdV4UqglmviH9GoBJ5jk='; object-src 'self'",
+  "content_security_policy": "script-src 'self' 'sha256-3p9pEyA9xRQBW+aZswAPaaTGoBvf2KdXkMcdctSJFU8='; object-src 'self'",
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
   "permissions": [
-    "tabs", "history"
+    "tabs",
+    "history"
   ]
-
 }
